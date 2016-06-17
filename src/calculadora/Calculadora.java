@@ -31,4 +31,8 @@ public class Calculadora {
 float division (float a , float b){
 return a / b;
 }
+float potencia (double a , double b){
+return (float) Math.pow(a, b) ;
+
+}
 }
